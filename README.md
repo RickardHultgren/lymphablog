@@ -1,2 +1,2 @@
-# Recipes
-[http://rickardhultgren.github.io/recipes](http://rickardhultgren.github.io/recipes)
+# LYMPHA blog
+[http://rickardhultgren.github.io/lymphablog](http://rickardhultgren.github.io/lymphablog)
