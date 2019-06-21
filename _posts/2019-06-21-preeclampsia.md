@@ -5,8 +5,6 @@ tag: gynecology
 tag: acute
 ---
 
-# A first attempt to write a LYMPHA script for preeclampsia and employing it on LYMPHAonline
-
 ## Introduction
 Preeclampsia affects 2 to 8% of all pregnancies and is a leading cause of maternal and perinatal morbidity worldwide. Obesity, which is increasing at an alarming rate, is a risk factor for preeclampsia. Hence preparedness for patients with preeclampsia is of great importance.
 
