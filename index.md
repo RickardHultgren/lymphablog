@@ -9,6 +9,6 @@ A blog about the programming language LYMPHA.<br><br>
 <a href="{{site.baseurl}}/tags">tag list</a>
 <br><br>
 {% for post in site.posts %}
-{{ post.date | date_to_string }} &raquo; <a href="/lymphaonline{{post.url}}">{{ post.title }}</a>
+{{ post.date | date_to_string }} &raquo; <a href="/lymphablog{{post.url}}">{{ post.title }}</a>
 {% endfor %}
 
