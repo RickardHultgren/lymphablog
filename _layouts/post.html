@@ -6,9 +6,31 @@
 	  <script src="../../../dragscroll.js"></script>    
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700&amp;lang=en" />	
 </head> 
-<body style="font-family:Signika Negative">
-  <p style="border-bottom:0.2em solid #777777;z-index:4;position:relative;display:inline;max-width:60vw;float:left;text-align:left;"><span style="font-size:0.75em;">The blog of the <a style="z-index:5;position:static;display:inline;" href="{{site.baseurl}}/index"><span class="sc">Lympha</span> project</a></p>
-    <p style="z-index:4;position:relative;display:inline;max-width:60vw;float:left;text-align:left;"><span style="font-size:0.75em;">A blog about the medical algorithms</span></p></p><br>
+<div class="container" style="">												 <div class="container" style="">
+	<div id="menubig" style="overflow:hidden;font-size:1.5vw; text-align:center; " id="thetop">
+		<div style="font-size:1.5vw;margin:0vw ;width:60vw;float:left; margin-bottom:.5em;"><a href="index"><img id="logopic" style="height:2.5em;width:auto;margin:0.66em 0em 0em 1.33em; position: relative;float:left;" src="logo.png"><span style="float:left;display:block;padding:2em 1.5em 0em  0.5em;font-size:0.75em;letter-spacing:0em;color:#6400EF;font-weight:bold;">blog</span>
+		</a><br>
+	<div style="border-bottom:0.1em solid #cccccc;margin-top:-1em;text-align:center;z-index:3;width:60vw;position:absolute;top:5em;font-family:'Signika Negative', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif, Helvetica, Arial;">
+		<a id="indextext" href="index"><div class="menu2" id="index" style="font-family:'Signika Negative', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif, Helvetica, Arial;">HOME</div></a> 
+		<a id="abouttext" href="about"><div class="menu2" id="about" style="font-family:'Signika Negative', 'Lucida Sans Unicode', 'Lucida Grande', sans-serif, Helvetica, Arial;">ABOUT</div></a>
+	</div>
+<br><br></div></div></div> 
+<div id="menusmall" style="text-align:center;">
+	<a style="vertical-align:top;" href="index"><img src="logo.png" alt="LYMPHA" style="height:auto;width:40vw;margin-right:4em;vertical-align:bottom;"></a><br><div style="
+		:center;display:block;padding:2em 1.5em 0em  0.5em;position:relative;font-size:0.75em;letter-spacing:0em;color:#6400EF;font-weight:bold;text-align:center;z-index:6;">blog</div>
+	<div style="width:4em;height:4em;position:absolute;"> </div><div class="menubutton" style="font-style:normal;vertical-align:top;color:#EFAB00;margin-bottom:-0em;font-size:20vw;border:none;display:inline-block;position: absolute;right:-.25em;top:-.38em; z-index:1; " onclick="changeMenu();">&#8801;</div><BR>
+	<div id="menuish" style="width=100%;display:none;position:relative;z-index:1;">
+		<a href="index"><div id="indexsmall" class="menu2">HOME</div></a>
+		<a href="about"><div id="aboutsmall" class="menu2">ABOUT</div></a>
+	</div>
+<hr style="z-index:1;position:relative;" /></div>
+
+<html lang="en" style="font-family:Signika Negative">
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../../../styles.css">
+	  <script src="../../../dragscroll.js"></script>    
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700&amp;lang=en" />	
 <p style="container">
   <a style="font-weight:normal;font-size:1.66em;letter-spacing:.125em;" href=" "/recipes{{page.url}}" >{{ page.title }}</a><br>
     <span style="font-size:.875em;margin-bottom:1em;align:left;">{{ page.date | date: "%-d %B %Y" }}</span><br><br>
@@ -16,8 +38,14 @@ Tags<br>
 {% assign post = page %} {% include post_tags.html %}
 <br><br>
 
+												 
+												 
+												 
         {{ content }}
 
 {% include footer.html %}
   </body>
 </html>
+
+												 
+												 
