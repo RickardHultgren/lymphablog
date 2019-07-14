@@ -20,7 +20,7 @@ Go to the [LYMPHAonline](http://rickardhultgren.github.io/lymphaonline/index) we
 https://raw.githubusercontent.com/RickardHultgren/LYMPHA-scripts/master/preeclampsia.lympha
 ~~~~
 
-Depending on the situation a healthcare professional could use the script in different ways. If the script should be employed as a screening tool before a visit at healthcare professional then write in the second box:
+Depending on the situation a healthcare professional could use the script in different ways. If the script should be employed as a screening tool before a visit to the healthcare professional then write in the second box:
 ~~~~
 screening.
 ~~~~
@@ -38,6 +38,6 @@ In the third box write how many steps you want to go ahead in the script. If you
 
 Then click on *Check for varialbe factors* and wait. After a while new boxes will appear. There is one box for each parameter that should go into the algorithm of the LYMPHA script.
 
-After clicking implement variables in script, the script will be executed and a list of action should be shown.
+After clicking *Implement variables in script*, the script will be executed and a list of action should be shown.
 
 ![<img src="http://rickardhultgren.github.io/lymphablog/images/preeclampsia2.png">](http://rickardhultgren.github.io/lymphablog/images/preeclampsia2.png)
