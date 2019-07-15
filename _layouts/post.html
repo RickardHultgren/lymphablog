@@ -35,12 +35,14 @@ function changeMenu() {
 		<a href="https://rickardhultgren.github.io/lymphablog/"><div id="indexsmall" class="menu2">FRONT PAGE</div></a>
 		<a href="https://rickardhultgren.github.io/lymphablog/about.html"><div id="aboutsmall" class="menu2">ABOUT</div></a>
 	</div>
+	<br>
 <hr style="z-index:1;position:relative;" /></div>
 
     <title>{{ page.title }}</title>
 <p style="margin-top:5em;text-align:left;">
   <a style="font-weight:normal;font-size:1.66em;letter-spacing:.125em; text-align:left;" href=" "/lymphablog{{page.url}}" >{{ page.title }}</a><br>
     <span style="font-size:.875em;margin-bottom:1em;align:left;">{{ page.date | date: "%-d %B %Y" }}</span><br><br>
+
 												 <span style="fonts-size:66%;">Tags</span>
 <span style="fonts-size:66%;">{% assign post = page %} {% include post_tags.html %}</span>
 <br><br>
