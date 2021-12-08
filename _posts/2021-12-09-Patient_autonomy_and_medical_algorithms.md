@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Patient autonomy and medical algorithms
-tag: machine learning
+tag: machine_learning
 tag: autonomy
 ---
 
