@@ -1,3 +1,7 @@
+
+<head>
+		<link rel="shortcut icon" href="lympha.ico" />
+</head>
 <script>
 document.getElementById("indexsmall").style.backgroundColor="#EFAB00";
 document.getElementById("indextext").style.color="#000000";
