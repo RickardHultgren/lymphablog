@@ -34,10 +34,10 @@ In the third box write how many steps you want to go ahead in the script. If you
 2
 ~~~~
 
-![<img src="http://rickardhultgren.github.io/lymphablog/images/preeclampsia1.png">](http://rickardhultgren.github.io/lymphablog/images/preeclampsia1.png)
+![<img src="https://raw.githubusercontent.com/RickardHultgren/lymphablog/gh-pages/_posts/images/preeclampsia1.png">](https://raw.githubusercontent.com/RickardHultgren/lymphablog/gh-pages/_posts/images/preeclampsia1.png)
 
 Then click on *Check for varialbe factors* and wait. After a while new boxes will appear. There is one box for each parameter that should go into the algorithm of the LYMPHA script.
 
 After clicking *Implement variables in script*, the script will be executed and a list of action should be shown.
 
-![<img src="http://rickardhultgren.github.io/lymphablog/images/preeclampsia2.png">](http://rickardhultgren.github.io/lymphablog/images/preeclampsia2.png)
+![<img src="https://raw.githubusercontent.com/RickardHultgren/lymphablog/gh-pages/_posts/images/preeclampsia2.png">](https://raw.githubusercontent.com/RickardHultgren/lymphablog/gh-pages/_posts/images/preeclampsia2.png)
