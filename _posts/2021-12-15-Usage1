@@ -1,0 +1,30 @@
+---
+layout: post
+title: At this time, how can LYMPHA be used?
+tag: usage
+tag: obstetrics
+---
+
+Nowadays, medical decisions are often based on medical algorithms. LYMPHA is a programming language designed specifically to handle medical algorithms. The scripts written in the language have the ending ".lympha". The interpreter for the language is written in Python and runs via prompt. Everything in LYMPHA is represented as constants and variables, but they are called procedures and factors. A common name for these data types is statements. Each statement is represented as a node in the flowchart that the interpreter can produce. The user can choose from different outputs of the interpreter:
+
+As nodes become activated, call an external application via prompt command.
+
+Draw a flowchart through Graphviz where activated nodes are marked.
+
+Print activated nodes' names
+
+I have also created a web-based variant of the interpreter built on the interpreter. Currently, this version of the interpreter is more advanced. The web variant allows users to create preview flowcharts and then input patient data that activates the corresponding nodes in the flowchart. Types of nodes that the web-based interpreter can handle are procedures, binary factors, or binary evaluations. Here is an example for interpartal CTG at term:
+
+~~~~
+CTG. -> CTG_110_160_spm? ; 
+CTG. -> CTG_100_or_under_110_spm? ; 
+CTG. -> CTG_under_100_spm? ; 
+CTG_100_or_under_110_spm? -> corrigate_reversible_causes. ; 
+CTG_100_or_under_110_spm? -> consider_stimulation_test. ; 
+CTG_100_or_under_110_spm? -> CTG. ; 
+CTG_under_100_spm? -> corrigate_reversible_causes. ; 
+CTG_under_100_spm? -> consider_stimulation_test. ; 
+CTG_under_100_spm? -> consider_labour ; 
+~~~~
+
+Although the development of lympha programs is far from finished, LYMPHA can at least be used as a forework for medical reasoning.
