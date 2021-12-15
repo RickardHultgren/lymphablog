@@ -27,4 +27,12 @@ CTG_under_100_spm? -> consider_stimulation_test. ;
 CTG_under_100_spm? -> consider_labour ; 
 ~~~~
 
+The script above will produce the following preview flowchart:
+
+![<img src="http://rickardhultgren.github.io/lymphablog/images/CTG1.png">](http://rickardhultgren.github.io/lymphablog/images/CTG1.png)
+
+With data of normal labour the following flowchart will be produced:
+
+![<img src="http://rickardhultgren.github.io/lymphablog/images/CTG2.png">](http://rickardhultgren.github.io/lymphablog/images/CTG2.png)
+
 Although the development of lympha programs is far from finished, LYMPHA can at least be used as a forework for medical reasoning.
