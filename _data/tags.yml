@@ -10,7 +10,7 @@ machine_learning:
   name: machine_learning
 autonomy:
   name: autonomy
-autonomy:
+obstetrics:
   name: obstetrics
-autonomy:
+usage:
   name: usage
