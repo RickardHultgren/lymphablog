@@ -8,7 +8,8 @@ tag: app
 
 The shortage of health care professionals that I have mentioned before ([Patient autonomy and medical algorithms](https://rickardhultgren.github.io/lymphablog/2021/12/09/Patient_autonomy_and_medical_algorithms.html)) affects mainly the low-middle income countries. In these settings, low-cost phones and tablets, typically Android, are the deployment platforms of choice. 
 
-One of the key concerns in these settings is severe skills shortages, where technology can be used to help empower lesser tiered workers. Therefore I develop an Android app for reeding what medical procedures would be appropriate to execute in a certain situation.
+One of the key concerns in these settings is severe skills shortages, where technology can be used to help empower lesser tiered workers. Therefore I develop an Android app for reeding what medical procedures would be appropriate to execute in a certain situation:
+[https://github.com/RickardHultgren/lymphaapp](https://github.com/RickardHultgren/lymphaapp)
 
 The app is in a rough alpha stage, but I hope you can get an idea of how the final app should work. The app reads a LYMPHA script. There i an examle script inside the program with two nodes: *crepitation* and *antibiotics*. When you start the app reads the script and then this will be shown on your screen:
 
