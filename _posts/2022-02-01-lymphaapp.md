@@ -4,7 +4,7 @@ title: LYMPHA App
 tag: app
 ---
 
-## Lympha app
+## LYMPHA app
 
 The shortage of health care professionals that I have mentioned before ([Patient autonomy and medical algorithms](https://rickardhultgren.github.io/lymphablog/2021/12/09/Patient_autonomy_and_medical_algorithms.html)) affects mainly the low-middle income countries. In these settings, low-cost phones and tablets, typically Android, are the deployment platforms of choice. 
 
