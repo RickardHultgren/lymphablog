@@ -16,3 +16,5 @@ usage:
   name: usage
 app:
   name: app
+AI:
+  name: AI
